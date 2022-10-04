@@ -32,7 +32,7 @@ class ArticleAdapter(private val context: Context) :
 
         private val mediaImageView = itemView.findViewById<ImageView>(R.id.mediaImage)
         private val titleTextView = itemView.findViewById<TextView>(R.id.mediaTitle)
-        private val abstractTextView = itemView.findViewById<TextView>(R.id.mediaAbstract)
+        //private val abstractTextView = itemView.findViewById<TextView>(R.id.mediaAbstract)
 
         init {
             itemView.setOnClickListener(this)
